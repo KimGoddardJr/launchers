@@ -17,6 +17,9 @@ elseif ($args[0] -eq "2022"){
 }
 
 
-python $Env:PYTHONPATH\ecosystem\main.py -t $Env:TOOLS -s > "C:\Users\Public\tmp\ecosystem.env"
+python $Env:PYTHONPATH\ecosystem\main.py -t $Env:TOOLS -r maya 
+#-s > "C:\Users\Public\tmp\ecosystem.env"
 
-set "C:\Users\Public\tmp\ecosystem.env"
+# set "C:\Users\Public\tmp\ecosystem.env"
+
+# maya.exe
