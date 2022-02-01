@@ -20,7 +20,6 @@ $env:PYTHONPATH="$HOME\devel\MyWorkEnv\ecosystem"
 $ARGLIST = $args[0].Split(" ")
 
 $env:TOOLS = $ARGLIST[0] + "," + $ARGLIST[1]
-echo $env:TOOLS
 
 python $Env:PYTHONPATH\main.py -t $env:TOOLS -r maya 
 #-s > "C:\Users\Public\tmp\ecosystem.env"
