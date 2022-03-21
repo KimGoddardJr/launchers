@@ -2,8 +2,8 @@
 # $BASE="$HOME\devel\MyWorkEnv"
 # if using anaconda. Copy ecosystem to C:\tools\Anaconda3\envs\vfxpipeline\Lib\site-packages
 # $env:ECO_ENV="$HOME\devel\MyWorkEnv\ecosystem-env"
-$env:ECO_ENV="$HOME\devel\Ecosystem-Env"
-$env:PYTHONPATH="$HOME\devel\MyWorkEnv\ecosystem"
+$env:ECO_ENV="D:\01_projects\2016_DigitalHumans\IA_Space_Pipeline\my.work.env\ecosystem-env"
+$env:PYTHONPATH="D:\01_projects\2016_DigitalHumans\IA_Space_Pipeline\my.work.env\ecosystem"
 
 # echo $args[0]
 
