@@ -3,8 +3,7 @@
 # if using anaconda. Copy ecosystem to C:\tools\Anaconda3\envs\vfxpipeline\Lib\site-packages
 # $env:ECO_ENV="$HOME\devel\MyWorkEnv\ecosystem-env"
 $env:ECO_ENV="$HOME\devel\MyWorkEnv\ecosystem-env"
-$env:PYTHONPATH="$HOME\devel\MyWorkEnv\"
-
+$env:PYTHONPATH="$HOME\devel\MyWorkEnv\ecosystem"
 
 # echo $args[0]
 
@@ -22,7 +21,8 @@ $ARGLIST = $args[0].Split(" ")
 
 $env:TOOLS = $ARGLIST[0] + "," + $ARGLIST[1]
 
-pythonw $Env:PYTHONPATH\ecosystem\main.py -t $env:TOOLS -r maya 
+
+pythonw $Env:PYTHONPATH\main.py -t $env:TOOLS -r "C:\Program Files\Bridge\Bridge.exe" 
 #-s > "C:\Users\Public\tmp\ecosystem.env"
 
 # set "C:\Users\Public\tmp\ecosystem.env"
