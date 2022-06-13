@@ -12,6 +12,7 @@ $env:ANUS_TRAY="$env:DEVEL_BASE\my.tray\anus_tray"
 
 $env:ANUS_PROJECT_MANAGER="$env:ANUS_TRAY\project_manager"
 $env:ANUS_PROJECT_MEMORY="$HOME\.anus\project_history.txt"
+$env:ANUS_PM_LAUNCHER="$env:DEVEL_BASE\launchers\windows\anus_manager.ps1"
 
 $env:ANUS_PROJECT_SETUP="$env:DEVEL_BASE\my.project-setup"
 
