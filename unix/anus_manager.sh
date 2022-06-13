@@ -19,13 +19,14 @@ BASE=${SCRIPT_PATH}/../../
 
 # LAUNCHERS
 export LAUNCHER_FILES="${BASE}/launcher.files"
-export LAUNCHERS="${BASE}/launchers/unix"
+export LAUNCHERS="${SCRIPT_PATH}"
 
 # APPS
 export ANUS_TRAY="${BASE}/my.tray/anus_tray"
 
 export ANUS_PROJECT_MANAGER="${ANUS_TRAY}/project_manager"
 export ANUS_PROJECT_MEMORY="${HOME}/.anus/project_history.txt"
+export ANUS_PM_LAUNCHER="${SCRIPT_PATH}/anus_manager.sh"
 
 export ANUS_PROJECT_SETUP="${BASE}/my.project-setup"
 
