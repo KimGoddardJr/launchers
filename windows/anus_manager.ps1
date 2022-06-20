@@ -1,5 +1,5 @@
 
-$env:DEVEL_BASE="$HOME\devel"
+$env:DEVEL_BASE="$PSScriptRoot\..\.."
 $env:ECO_ENV="$env:DEVEL_BASE\MyWorkEnv\ecosystem-env"
 $env:PYTHONPATH="$env:DEVEL_BASE\MyWorkEnv\"
 

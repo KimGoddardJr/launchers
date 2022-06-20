@@ -1,5 +1,5 @@
 
-$env:DEVEL_BASE="$HOME\devel"
+$env:DEVEL_BASE="$PSScriptRoot\..\.."
 $env:ECO_ENV="$env:DEVEL_BASE\MyWorkEnv\ecosystem-env"
 $env:PYTHONPATH="$env:DEVEL_BASE\MyWorkEnv\"
 
@@ -12,7 +12,7 @@ $env:ANUS_TRAY="$env:DEVEL_BASE\my.tray\anus_tray"
 
 $env:ANUS_PROJECT_MANAGER="$env:ANUS_TRAY\project_manager"
 $env:ANUS_PROJECT_MEMORY="$HOME\.anus\project_history.txt"
-$env:ANUS_PM_LAUNCHER="$env:DEVEL_BASE\launchers\windows\anus_manager.ps1"
+$env:ANUS_PM_LAUNCHER="$PSScriptRoot\anus_manager.ps1"
 
 $env:ANUS_PROJECT_SETUP="$env:DEVEL_BASE\my.project-setup"
 
